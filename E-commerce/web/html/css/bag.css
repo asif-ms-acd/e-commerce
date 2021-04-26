@@ -1,0 +1,130 @@
+
+.container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bag-section{
+    width: 500px;
+    /* height: 500px; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    /* justify-content: flex-end;     */
+    border-bottom: 1px solid #D8D8D8;
+}
+.bag-column{
+    
+    border-top: 1px solid #D8D8D8;
+    padding: 25px 0px;
+    /* background-color: blue; */
+}
+.bag-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 220px;
+    /* background-color: cornflowerblue; */
+}
+.bag-item .bag-item-img{
+    width: 40%;
+    /* background-color: cornsilk; */
+}
+.bag-item-img img{
+    width: 100%;
+    height: 220px;
+}
+.bag-item-details{
+    width: 60%;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 24px;
+}
+.bag-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.bag-title span{
+    margin-left: 10px;
+    font-size: 11px;
+    color: #8C8C8C;
+}
+.bag-item-details .item-title{
+    font-weight: 600;
+}
+.bag-item-details .item-about{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    /* text-align: left; */
+}
+.bag-item-details .item-about span{
+    margin-bottom: 15px;
+}
+.bag-item-details .item-about button{
+    width: 150px;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    
+}
+.bag-item-details .item-about button i{
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.bag-remove-btn{
+    font-size: 11px;
+    text-align: right;
+    margin-top: 10px;
+    
+}
+.bag-remove-btn button{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.bag-checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.bag-checkout span{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bag-checkout button{
+    font-size: 11px;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 15px;
+    font-weight: 400;
+}
+.card-logo img{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: .5px solid #D8D8D8;
+    padding: 0px 10px;
+    border-radius: 15%;
+}

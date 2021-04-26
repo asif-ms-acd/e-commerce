@@ -1,0 +1,355 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+
+}
+.nav {
+    background-color: #fff;
+    padding: 3px 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    color: #000;  
+}
+.nav1, .nav2, .nav3{
+    width: 33.3%;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+.nav1 ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+.nav1 ul li{
+    margin-right: 30px;   
+}
+.nav ul li a{
+    border: 1px solid transparent;
+}
+.nav ul li a:hover{
+    color: #b8f0ff;
+    transform: scale(1.5);
+}
+.nav2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;  
+}
+.nav3 ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.nav3 ul li{
+    margin-left: 30px;
+}
+
+
+
+#product-path{
+    position: absolute;
+    float: left;
+    left: 5%;
+    /* margin-left: 10px;
+    margin-top: 20px; */
+    /* margin-right: 80%; */
+    /* margin-top: 500px; */
+    top: 70px;
+    text-decoration: none;
+    color: #8C8C8C;
+}
+.product-section{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* height: 500px; */
+    background-color: #fff;
+    /* padding: ; */
+    justify-content: flex-end;
+}
+.product-img{
+    height: 600px;
+    width: 38%;
+    /* background-color: blue; */
+    
+}
+.product-img img{
+    
+    /* object-fit: cover; */
+    width: 100%;
+    height: 600px;
+}
+/* .product-img-2{
+    height: 500px;
+    width: 38%;
+    background-color: blueviolet;
+} */
+.product-details{
+    /* height: 500px; */
+    width: 22%;
+    /* background-color: brown; */
+    padding: 40px 5% 40px 40px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.product-details .title{
+    font-size: 18px;
+    /* font-weight: 600; */
+    margin-bottom: 20px;
+}
+.product-details .pre-order{
+    color: #D8D8D8;
+}
+.product-details .color{
+    color: #8C8C8C;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.colors button{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.colors .btn-1{
+    background-color: grey;
+    
+    
+}
+.colors .btn-2{
+    background-color: red;
+}
+.size{
+    margin-top: 30px;
+}
+.sizes button{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    text-align: left;
+}
+.sizes button.active{
+    border-bottom: 1px solid black;
+}
+.add-to-bag{
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.add-to-bag button{
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+}
+.add-to-bag #bag{
+    /* padding: 0px 55px; */
+    width: 80%;
+    font-weight: 600;
+    border-right: 1px solid #fff;
+}
+.add-to-bag #wish-list{
+    justify-content: center;
+    width: 20%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.dropdown{
+    /* margin-top: 30px; */
+    width: 100%;
+    /* background-color: beige; */
+}
+.dropdown button{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+.dropdown button i{
+    margin-right: 10px;
+}
+.dropdown .drop{
+    /* width: 100%; */
+    padding-left: 30px;
+    /* background-color: blue */
+}
+.dropdown .drop p {
+    display: none;
+}
+
+
+
+
+
+.complete-look{
+    width: 100%;
+    margin-top: 30px;
+    height: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    
+}
+.complete-look .text{
+    
+    width: 38%;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    /* background-color: burlywood; */
+    justify-content: center;
+}
+
+.complete-look .img-more{
+    width: 100%;
+    /* background-color: chartreuse; */
+    
+    
+}
+.complete-look .img-more img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    justify-content: flex-start;
+}
+/* .complete-look .img-more-2{
+    width: 31%;
+    background-color: crimson;
+} */
+
+
+
+.also-like-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.also-like-section .item-list-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.item-list-row .product{
+    /* background-color:crimson; */
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    
+}
+.item-list-row .product img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.item-list-row .product img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out 0.0s;
+}
+
+
+
+footer{
+    width: 100%;
+}
+
+
+.subscription-section{
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.subscription-section span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+}
+.mail-form{
+    margin: 0px 30%;
+    border-bottom: 1px solid #D8D8D8;
+}
+form{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscription-section input[type=text] {
+    width: 80%;
+    border: none;
+    color: #8C8C8C;
+    
+    
+}
+.subscription-section button{
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+.subscription-section button:hover {
+    background-color: lightblue;
+}
+.footer-row{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #000F08;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+.footer-col{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-row span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-col-link{
+    margin-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+.footer-col-link span{
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+.footer-col-link a{
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000F08;
+}
+.footer-col-link a:hover{
+    color: rgb(79, 149, 255);
+}
+.footer-col-link i{
+    margin-right: 5px;
+    font-size: 14px;
+}
